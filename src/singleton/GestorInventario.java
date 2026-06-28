@@ -7,7 +7,7 @@ public class GestorInventario {
     private String periodo;
 
     private GestorInventario() {
-        this.almacen = "Almacen Principal";
+        this.almacen = "Almacen Principal.";
         this.periodo = "2025-1";
     }
 
