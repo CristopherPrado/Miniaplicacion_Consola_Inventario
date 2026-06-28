@@ -41,7 +41,7 @@ public class Main {
                 .build();
         System.out.println("Orden simple: " + ordenSimple);
 
-        System.out.println("=================== Patron Adapter (ConsultaStock) ===================");
+        System.out.println("=================== Patron Adapter (ConsultaStock) ====================");
 
         LectorStockExterno lectorExterno = new LectorStockExterno();
         ConsultaStock stock = new StockAdapter(lectorExterno);
