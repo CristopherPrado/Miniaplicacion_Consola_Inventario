@@ -6,6 +6,6 @@ public class ProductoAlimento implements Producto {
 
     @Override
     public void mostrarInfo() {
-        System.out.println("[ALIMENTO] Producto: " + nombre);
+        System.out.println("[ALIMENTO] Producto.: " + nombre);
     }
 }
