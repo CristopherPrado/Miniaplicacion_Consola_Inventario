@@ -23,7 +23,7 @@ public class OrdenCompra {
     public static class Builder {
         private String proveedor      = "sin proveedor";
         private String producto;
-        private int    cantidad       = 1;
+        private int    cantidad       = 2;
         private double precioUnitario = 0.0;
 
         public Builder(String producto) { this.producto = producto; }
